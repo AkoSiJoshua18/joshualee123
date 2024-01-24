@@ -1,0 +1,47 @@
+.menu{
+	width: 400px;
+	float: left;
+	height:70px;
+}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ul li{
+	list-style: none;
+	margin-left: 62px;
+	margin-top: 27px;
+	font-size: 14;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.9 ease-in-out;
+}
+ul li a:hover{
+	color: green;
+}
+.search{
+	float: right;
+}
+.srch{
+	font-family: Arial;
+	width: 200px;
+	height: 40px;
+	background: transparent;
+}
+.btn{
+	width: 100px;
+	height: 40px;
+	margin-top: 13px;
+	font-size: 15px;
+}
+body{
+	background-color: grey;
+}
+
+
